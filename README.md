@@ -2,7 +2,7 @@
 
 Project Members:
 
-1- 150119689 Ömer Faruk Kışlakçı
+1- 150119689 Ömer Faruk Kışlakçı\n
 2- 150119649 Emirhan Meral
 3- 150119624 Muhammet Kasım Yüksel
 4- 150119905 Fatih Genç
