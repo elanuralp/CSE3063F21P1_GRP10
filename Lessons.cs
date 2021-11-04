@@ -21,5 +21,19 @@ public class Main {
     DC TRD121= new DC("Turkish Language 2", "TRD122",prerequisite,1,2,0,0);
     DC NTE1= new DC("Nontechnical Elective 1", "NTE1",prerequisite,1,2,0,0);
     FC PHYS1104= new FC("Physics Lab 2", "PHYS1104",prerequisite,1,2,0,0);
+    
+    FC MATH2055 =  new FC("Differential Equations", "MATH2055",prerequisite,1,4,0,0);
+    FC CSE2025 =  new FC("Data Structures", "CSE2025",prerequisite,1,8,0,0);
+    FC CSE2023 =  new FC("Discretet Comp. Structures", "CSE2023",prerequisite,1,6,0,0);
+    FC EE2031 =  new FC("Electric Circuits", "EE2031",prerequisite,1,5,0,0);
+    FC ECON2003 =  new FC("Introduction to Economics", "ECON2003",prerequisite,1,4,0,0);
+    FC NTE2 =  new FC("Nontechnical Elective 1", "NTE2",prerequisite,1,3,0,0);
+    
+    FC MATH2059 =  new FC("Numerical Methods", "MATH2059",prerequisite,1,4,0,0);
+    FC CSE2046 =  new FC("Analysis of Algorithms", "CSE2046",prerequisite,1,6,0,0);
+    FC ECON2004 =  new FC("Engineering Economy", "ECON2003",prerequisite,1,4,0,0);
+    FC EE2032 =  new FC("Electronics", "EE2032",prerequisite,1,5,0,0);
+    FC CSE2138 =  new FC("Systems Programming", "CSE2138",prerequisite,1,7,0,0);
+    FC STAT2053 =  new FC("Int. to Prob. and Statics", "STAT2053",prerequisite,1,4,0,0);
  
 }
