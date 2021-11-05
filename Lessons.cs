@@ -35,5 +35,37 @@ public class Main {
     FC EE2032 =  new FC("Electronics", "EE2032",prerequisite,1,5,0,0);
     FC CSE2138 =  new FC("Systems Programming", "CSE2138",prerequisite,1,7,0,0);
     FC STAT2053 =  new FC("Int. to Prob. and Statics", "STAT2053",prerequisite,1,4,0,0);
+    
+    FC CSE3000 =  new FC("Summer Practise", "CSE3000",prerequisite,1,10,0,0);
+    FC CSE3055 =  new FC("Database Systems", "CSE3055",prerequisite,1,7,0,0);
+    FC CSE3033 =  new FC("Operating Systems", "CSE3033",prerequisite,1,7,0,0);
+    FC CSE3063 =  new FC("Object-Oriented Software Desg.", "CSE3063",prerequisite,1,5,0,0);
+    FC CSE3015 =  new FC("Digital Logic Design", "CSE3015",prerequisite,1,7,0,0);
+    FC IE3081 =  new FC("Modeling and Disc. Simulation", "IE3081",prerequisite,1,4,0,0);
+    
+    FC CSE3048 =  new FC("Int. to Signals and Systems", "CSE3048",prerequisite,1,5,0,0);
+    FC CSE3044 =  new FC("Software Engineering", "CSE3044",prerequisite,1,7,0,0);
+    FC CSE3064 =  new FC("Formal Lang. & Auto. Theory", "CSE3064",prerequisite,1,6,0,0);
+    FC CSE3038 =  new FC("Computer Orginization", "CSE3038",prerequisite,1,7,0,0);
+    FC IE3035 =  new FC("Digital Logic Design", "IE3035",prerequisite,1,5,0,0);
  
+    FC CSE4197 =  new FC("Engineering Project 1", "CSE4197",prerequisite,1,4,0,0);
+    FC CSE4074 =  new FC("Computer Networks", "CSE4074",prerequisite,1,5,0,0);
+    FC TE1 =  new FC("Technical Elective 1", "TE1",prerequisite,1,5,0,0);
+    FC TE2 =  new FC("Technical Elective 2", "TE2",prerequisite,1,5,0,0);
+    FC CSE4117 =  new FC("Microprocessors", "CSE4117",prerequisite,1,6,0,0);
+    FC ISG121 =  new FC("Work Safety", "ISG121",prerequisite,1,2,0,0);
+    FC UE =  new FC("University Elective", "UE",prerequisite,1,3,0,0);
+    FC CSE4000 =  new FC("Summer Practise", "CSE4000",prerequisite,1,5,0,0);
+    
+    FC CSE4198 =  new FC("Engineering Project 2", "CSE4198",prerequisite,1,5,0,0);
+    FC TE3 =  new FC("Technical Elective 3", "TE3",prerequisite,1,5,0,0);
+    FC TE4 =  new FC("Technical Elective 4", "TE4",prerequisite,1,5,0,0);
+    FC TE5 =  new FC("Technical Elective 5", "TE5",prerequisite,1,5,0,0);
+    FC FTE =  new FC("Faculty Technical Elective", "FTE",prerequisite,1,5,0,0);
+    FC ISG122 =  new FC("Technical Elective 4", "ISG122",prerequisite,1,2,0,0);
+    FC NTE3 =  new FC("Nontechnical Elective 3", "NTE3",prerequisite,1,3,0,0);
+    
+    
+    
 }
