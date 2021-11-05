@@ -17,7 +17,7 @@ public class Main {
     FC MATH2056 =  new FC("Llinear Algebra", "MATH2056",prerequisite,2,4,0,0);
     FC MATH1002 =  new FC("Calculus 2", "MATH1002",prerequisite,2,6,0,0);
     DC CSE1142 = new DC("Computer Programming 2", "CSE1142",prerequisite,2,7,0,0);
-    FC PHYS1103= new FC("Physics 2", "PHYS1103",prerequisite,2,4,0,0);
+    FC PHYS1104= new FC("Physics 2", "PHYS1104",prerequisite,2,4,0,0);
     DC TRD122= new DC("Turkish Language 2", "TRD122",prerequisite,2,2,0,0);
     DC NTE1= new DC("Nontechnical Elective 1", "NTE1",prerequisite,2,2,0,0);
     FC PHYS1104= new FC("Physics Lab 2", "PHYS1104",prerequisite,2,2,0,0);
