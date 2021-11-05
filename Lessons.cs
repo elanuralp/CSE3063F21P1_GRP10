@@ -16,9 +16,9 @@ public class Main {
     FC ATA122 =  new FC("Atatürk's Prin. & History 2", "ATA122",prerequisite,2,2,0,0);
     FC MATH2056 =  new FC("Llinear Algebra", "MATH2056",prerequisite,2,4,0,0);
     FC MATH1002 =  new FC("Calculus 2", "MATH1002",prerequisite,2,6,0,0);
-    DC CSE1141 = new DC("Computer Programming 2", "CSE1142",prerequisite,2,7,0,0);
-    FC PHYS1101= new FC("Physics 2", "PHYS1103",prerequisite,2,4,0,0);
-    DC TRD121= new DC("Turkish Language 2", "TRD122",prerequisite,2,2,0,0);
+    DC CSE1142 = new DC("Computer Programming 2", "CSE1142",prerequisite,2,7,0,0);
+    FC PHYS1103= new FC("Physics 2", "PHYS1103",prerequisite,2,4,0,0);
+    DC TRD122= new DC("Turkish Language 2", "TRD122",prerequisite,2,2,0,0);
     DC NTE1= new DC("Nontechnical Elective 1", "NTE1",prerequisite,2,2,0,0);
     FC PHYS1104= new FC("Physics Lab 2", "PHYS1104",prerequisite,2,2,0,0);
     
@@ -31,7 +31,7 @@ public class Main {
     
     FC MATH2059 =  new FC("Numerical Methods", "MATH2059",prerequisite,4,4,0,0);
     FC CSE2046 =  new FC("Analysis of Algorithms", "CSE2046",prerequisite,4,6,0,0);
-    FC ECON2004 =  new FC("Engineering Economy", "ECON2003",prerequisite,4,4,0,0);
+    FC ECON2004 =  new FC("Engineering Economy", "ECON2004",prerequisite,4,4,0,0);
     FC EE2032 =  new FC("Electronics", "EE2032",prerequisite,4,5,0,0);
     FC CSE2138 =  new FC("Systems Programming", "CSE2138",prerequisite,4,7,0,0);
     FC STAT2053 =  new FC("Int. to Prob. and Statics", "STAT2053",prerequisite,4,4,0,0);
