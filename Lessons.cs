@@ -67,5 +67,60 @@ public class Main {
     FC NTE3 =  new FC("Nontechnical Elective 3", "NTE3",prerequisite,8,3,0,0);
     
     
-    
+    allessons.add(ATA121);
+        allessons.add(MATH1001);
+        allessons.add(CHEM1007);
+        allessons.add(CSE1141);
+        allessons.add(PHYS1101);
+        allessons.add(CSE1100);
+        allessons.add(TRD121);
+        allessons.add(PHYS1103);
+        allessons.add(ATA122);
+        allessons.add(MATH2056);
+        allessons.add(MATH1002);
+        allessons.add(CSE1142);
+        allessons.add(PHYS1104);
+        allessons.add(TRD122);
+        allessons.add(NTE1);
+        allessons.add(PHYS1104);
+        allessons.add(MATH2055);
+        allessons.add(CSE2025);
+        allessons.add(CSE2023);
+        allessons.add(EE2031);
+        allessons.add(ECON2003);
+        allessons.add(NTE2);
+        allessons.add(MATH2059);
+        allessons.add(CSE2046);
+        allessons.add(ECON2004);
+        allessons.add(EE2032);
+        allessons.add(CSE2138);
+        allessons.add(STAT2053);
+        allessons.add(CSE3000);
+        allessons.add(CSE3055);
+        allessons.add(CSE3033);
+        allessons.add(CSE3063);
+        allessons.add(CSE3015);
+        allessons.add(IE3081);
+        allessons.add(CSE3048);
+        allessons.add(CSE3044);
+        allessons.add(CSE3064);
+        allessons.add(CSE3038);
+        allessons.add(IE3035);
+        allessons.add(CSE4197);
+        allessons.add(CSE4074);
+        allessons.add(TE1);
+        allessons.add(TE2);
+        allessons.add(CSE4117);
+        allessons.add(ISG121);
+        allessons.add(UE);
+        allessons.add(CSE4000);
+        allessons.add(CSE4198);
+        allessons.add(TE3);
+        allessons.add(TE4);
+        allessons.add(TE5);
+        allessons.add(FTE);
+        allessons.add(ISG122);
+        allessons.add(NTE3);
+
+
 }
