@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Course>prerequisite=new ArrayList<Course>();
         ArrayList<Course> allessons = new ArrayList<>();
-        FC ATA121 =  new FC("Atatürk's Prin. & History 1", "ATA101",prerequisite,1,2,0,0);
+        FC ATA121 =  new FC("Atatürk's Prin. & History 1", "ATA121",prerequisite,1,2,0,0);
         FC MATH1001 =  new FC("Calculus 1", "MATH1001",prerequisite,1,6,0,0);
         FC CHEM1007= new FC("Basic Chemistry", "CHEM1007",prerequisite,1,6,0,0);
         DC CSE1141 = new DC("Computer Programming 1", "CSE1141",prerequisite,1,6,0,0);
