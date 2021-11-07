@@ -12,5 +12,3 @@ Project Members:
 8- 150119016 Emrullah Sevmiş<br />
 9- 150119667 Ege Eren Ellez<br />
 10- 150119673 Ela Nur Alp<br />
-
-![alt text](https://images-ext-2.discordapp.net/external/53a2-Hri0N-tLX0AUHysPZ_FLu352Fk68ByFpQtkBSk/%3Fwidth%3D973%26height%3D599/https/media.discordapp.net/attachments/904624646857572356/904764453399187517/unknown.png)
