@@ -1,4 +1,4 @@
-Iteration 1 - Course Selection Simulator
+# Iteration 1 - Course Selection Simulator
 
 1-
 2-
