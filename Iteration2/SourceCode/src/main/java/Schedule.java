@@ -9,17 +9,13 @@ public class Schedule {
         this.isApproved = isApproved;
     }
 
-    public void addToSchedule(CourseSectionRegister courseSectionRegister){//
+    public void addToSchedule(CourseSectionRegister courseSectionRegister){
         ArrayList<CourseSectionRegister> courseSectionRegisterListToAdd=getCourseSectionRegisterList();
         courseSectionRegisterListToAdd.add(courseSectionRegister);
         
         setCourseSectionRegisterList(courseSectionRegisterListToAdd);
     }
-    public void removeFromSchedule(CourseSectionRegister courseSectionRegister){//
-        //ArrayList<CourseSectionRegister> courseSectionRegisterListToRemove=getCourseSectionRegisterList();
-        //courseSectionRegisterListToRemove.remove(courseSectionRegister);
-        //setCourseSectionRegisterList(courseSectionRegisterListToRemove);
-
+    public void removeFromSchedule(CourseSectionRegister courseSectionRegister){
         this.courseSectionRegisterList.remove(courseSectionRegister);
     }
 
