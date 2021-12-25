@@ -21,8 +21,8 @@ public class Advisor extends Lecturer {
         return true;
 
     }
-    public void checkStudentSchedule(Student student,SemesterStatistic semesterStatistic) {
-        ArrayList<String> logs = new ArrayList<>();
+    public void checkStudentSchedule(Student student,SemesterStatistic semesterStatistic,ArrayList<String> preq) {
+        ArrayList<String> logs = preq;
 
         Schedule studentSchedule = student.getSchedule();
         Transcript studentTranscript = student.getTranscript();

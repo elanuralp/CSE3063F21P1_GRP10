@@ -28,10 +28,10 @@ public class UniversitySystem {
     private ArrayList<Advisor> advisorList = new ArrayList<Advisor>();
     public void  initializeUniversityCourseSelectionSystem(){
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader("employees.json")) {
+        try (FileReader reader = new FileReader("input.json")) {
             Object obj = jsonParser.parse(reader);
-            JSONArray employeeList = (JSONArray) obj;
-            employeeList.forEach( emp -> initializeFromJson( (JSONObject) emp ));
+            JSONArray inputList = (JSONArray) obj;
+            inputList.forEach( emp -> initializeFromJson( (JSONObject) emp ));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -157,7 +157,7 @@ public class UniversitySystem {
                     String pre = iterator.next();
                     for (int i = 0; i < semesterList.size(); i++) {
                         for (int j = 0; j < semesterList.get(i).getCourseList().size(); j++) {
-                            if (semesterList.get(i).getCourseList().get(j).getCode() == pre) {
+                            if (semesterList.get(i).getCourseList().get(j).getCode().equals(pre)) {
                                 prelist.add(semesterList.get(i).getCourseList().get(j));
                             }
                         }

@@ -66,6 +66,7 @@ public class Student {
     public void startRegistration(ArrayList<Semester> allSemesterList,SemesterStatistic semesterStatistic) {
         ArrayList<Course> failedCourses = this.getTranscript().getFailedCourses();
         ArrayList<Course> completedCourses = this.getTranscript().getCompletedCourses();
+        ArrayList<String> preqCourses = new ArrayList<>();
         // Registering to failedCourses first.
         for (Course course : failedCourses) {
             ArrayList<CourseSection> sectionsOfCourse = course.getCourseSection();
@@ -100,14 +101,15 @@ public class Student {
                         sectionsOfCourse.get(sectionNumber - 1).requestToRegister(this);
 
                     } else {
-                        //write to json
+                        preqCourses.add("The system didn't allow "+sectionsOfCourse.get(sectionNumber-1).getCourse().get(0).getCode()+"  because student failed prereq.");
+                        CourseSectionRegister register = new CourseSectionRegister(sectionsOfCourse.get(sectionNumber-1),"PREREQUISITE",this);
+                        semesterStatistic.addtoDeniedCourseSectionRegisterList(register);
                     }
                 }
             }
 
         }
-        this.advisor.checkStudentSchedule(this,semesterStatistic);
-
+        this.advisor.checkStudentSchedule(this,semesterStatistic,preqCourses);
     }
     public void writeToTheJSON(Map<String,String> courseMap){
         String fileName = getId().getID()+".json";JSONObject jsonObject = new JSONObject();
@@ -118,7 +120,6 @@ public class Student {
 
         //logs.add("Course: " + name +", Grade:"+ grade );
         jsonObject.put("Semester " + (this.academicSemester+1) + ": ",courses );
-
         if(this.academicSemester+1==1){
             try {
                 FileWriter file = new FileWriter(fileName,true);
@@ -127,8 +128,6 @@ public class Student {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-
         }
         else{
 
@@ -152,7 +151,6 @@ public class Student {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
     public void writeGPA(String logs){
         String fileName = getId().getID()+".json";JSONObject jsonObject = new JSONObject();
