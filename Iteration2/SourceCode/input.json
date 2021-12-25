@@ -1,0 +1,1175 @@
+[
+  {
+    "Settings":{
+      "numberOfStudentsToBeAdded": "70",
+      "willBeSimulatedSemesterType": "SPRING"
+    },
+    "Courses1": {
+      "ATA121": {
+        "name": "Atatürk İlkeleri ve İnkılap Tarihi I",
+        "credit": "2",
+        "semester": "1",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Hülya Özler",
+            "schedule": "Tuesday 22:00-23:50"
+          }
+        },
+        "prerequisite": []
+      },
+      "MBG1201": {
+        "name": "Introduction to Modern Biology",
+        "credit": "5",
+        "semester": "1",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Beste Turanlı",
+            "schedule": "Wednesday 10:30-12:20, Friday 11:30-12:20"
+          }
+        },
+        "prerequisite": []
+      },
+      "CSE1200": {
+        "name": "Introduction to Computer Engineering",
+        "credit": "4",
+        "semester": "1",
+        "type": "DC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Fatma Corut Ergin",
+            "schedule": "Wednesday 13:00-13:50, Friday 09:30-11:20"
+          }
+        },
+        "prerequisite": []
+      },
+      "CSE1241": {
+        "name": "Computer Programming I",
+        "credit": "6",
+        "semester": "1",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Mustafa Ağaoğlu",
+            "schedule": "Monday 10:30-12:20, Wednesday 14:00-14:50, Tuesday 13:00-14:50"
+          },
+          "2": {
+            "lecturer": "Mustafa Ağaoğlu",
+            "schedule": "Monday 10:30-12:20, Wednesday 14:00-14:50, Thursday 10:30-12:20"
+          }
+        },
+        "prerequisite": []
+      },
+      "MATH1001": {
+        "name": "Calculus I",
+        "credit": "6",
+        "semester": "1",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Nureddin Türkan",
+            "schedule": "Tuesday 08:30-10:20, Thursday 08:30-10:20"
+          }
+        },
+        "prerequisite": []
+      },
+      "PHYS1101": {
+        "name": "Physics I",
+        "credit": "4",
+        "semester": "1",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Mustafa Alevli",
+            "schedule": "Tuesday 15:00-15:50, Thursday 14:00-15:50"
+          }
+        },
+        "prerequisite": []
+      },
+      "PHYS1103": {
+        "name": "Physics Lab I",
+        "credit": "2",
+        "semester": "1",
+        "type": "FC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Hüseyin Yaltırık",
+            "schedule": "Thursday 17:00-18:50"
+          },
+          "2": {
+            "lecturer": "Hüseyin Yaltırık",
+            "schedule": "Friday 16:00-17:50"
+          }
+        },
+        "prerequisite": []
+      },
+      "TRD121": {
+        "name": "Türk Dili I",
+        "credit": "2",
+        "semester": "1",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Yasemin Bulut",
+            "schedule": "Sunday 15:00-16:50"
+          }
+        },
+        "prerequisite": []
+      }
+    },
+    "Courses2": {
+      "ATA122": {
+        "name": "Atatürk İlkeleri ve İnkılap Tarihi II",
+        "credit": "2",
+        "semester": "2",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Hülya Özler",
+            "schedule": "Tuesday 22:00-22:50, Tuesday 23-00-23:50"
+          }
+        },
+        "prerequisite": []
+      },
+      "CSE1242": {
+        "name": "Computer Programming II",
+        "credit": "6",
+        "semester": "2",
+        "type": "DC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Ali Fuat Alkaya",
+            "schedule": "Tuesday 15:00-15:50, Friday 16:00-16:50,Friday 17:00-17:50"
+          }
+        },
+        "prerequisite": [
+          "CSE1241"
+        ]
+      },
+      "MATH1002": {
+        "name": "Calculus II",
+        "credit": "6",
+        "semester": "2",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Mustafa Cem Çelik",
+            "schedule": "Tuesday 17:00-18:50,Thursday 17:00-18:50"
+          }
+        },
+        "prerequisite": [
+          "MATH1001"
+        ]
+      },
+      "MATH2256": {
+        "name": "Linear Algebra for Computer Engineering",
+        "credit": "5",
+        "semester": "2",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Fatma Corut Ergin",
+            "schedule": "Monday 15:00-16:00,Wednesday 16:00-17:00"
+          }
+        },
+        "prerequisite": []
+      },
+      "PHYS1102": {
+        "name": "Physics II",
+        "credit": "4",
+        "semester": "2",
+        "type": "FC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Mustafa Alevli",
+            "schedule": "Monday 13:00-14:50,Monday 15:00-15:50"
+          },
+          "2": {
+            "lecturer": "Tayfun Akyürek",
+            "schedule": "Friday 17:00-19:50"
+          }
+        },
+        "prerequisite": [
+          "PHYS1101"
+        ]
+      },
+      "PHYS1104": {
+        "name": "Physics Lab II",
+        "credit": "2",
+        "semester": "2",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Hüseyin Yaltırık",
+            "schedule": "Tuesday 10:30-12:20"
+          }
+        },
+        "prerequisite": []
+      },
+      "TRD122": {
+        "name": "Türk Dili II",
+        "credit": "2",
+        "semester": "2",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Yasemin Bulut",
+            "schedule": "Sunday 15:00-16:50"
+          }
+        },
+        "prerequisite": []
+      },
+      "NTE-1": {
+        "name": "Nontechnical Elective I",
+        "credit": "3",
+        "semester": "2",
+        "type": "NTE",
+        "quota": "5",
+        "sections": {
+        },
+        "prerequisite": []
+      }
+    },
+    "Courses3": {
+      "CSE2023": {
+        "name": "Discrete Computational Structures",
+        "credit": "5",
+        "semester": "3",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1":  {
+            "lecturer": "Ali Fuat Alkaya",
+            "schedule": "Monday 13:00-14:50, Wednesday 16:00-16:50"
+          }
+        },
+        "prerequisite": [
+
+        ]},
+
+
+      "CSE2025": {
+        "name": "Data Structures",
+        "credit": "8",
+        "semester": "3",
+        "type": "DC",
+        "quota": "80",
+        "sections": {
+          "1":  {
+            "lecturer": "Borahan Tümer",
+            "schedule": "Friday 15:00-16:50"
+          }
+
+
+        },
+        "prerequisite": [
+          "CSE1242"
+        ]},
+
+      "ECON2004": {
+        "name": "Engineering Economy",
+        "credit": "4",
+        "semester": "3",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Eren Yıldız Geyhan",
+            "schedule": "Tuesday 18:00-19:50"
+          }
+
+        },
+        "prerequisite": [
+          " "
+        ]},
+
+
+      "EE2031": {
+        "name": "Electric Circuits",
+        "credit": "5",
+        "semester": "3",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Fulya Çallıalp",
+            "schedule": "Tuesday 13:00-14:50, Thursday 14:00-14:50"
+          }
+
+        },
+        "prerequisite": [
+          "PHYS1102"
+        ]},
+
+
+      "MATH2055": {
+        "name": "Differential Equation",
+        "credit": "4",
+        "semester": "3",
+        "type": "FC",
+        "quota": "80",
+        "sections":   {
+          "1": {
+            "lecturer": "Nureddin Türkan",
+            "schedule": "Monday 09:30-10:20, Wednesday 08:30-10:20"
+          }
+
+        },
+        "prerequisite": [
+          " "
+        ]},
+
+      "MATH2059": {
+        "name": "Numerical Methods",
+        "credit": "4",
+        "semester": "3",
+        "type": "FC",
+        "lecturer": "Çiğdem Eroğlu Erdem",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Çiğdem Eroğlu Erdem",
+            "schedule": "Tuesday 15:00-16:50, Thursday 15:00-15:50"
+          }
+        },
+        "prerequisite": [
+          "MATH1001"
+        ]
+      }
+    },
+    "Courses4": {
+      "CSE2246": {
+        "name": "Analysis of Algorithms",
+        "credit": "3",
+        "semester": "4",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Ömer KORÇAK",
+            "schedule": "Tuesday 18:00-19:00"
+          },
+          "2": {
+            "lecturer": "Ömer KORÇAK",
+            "schedule": "Thursday 18:00-19:00"
+          }
+        },
+        "prerequisite": ["CSE2025"]
+      },
+      "CSE2138": {
+        "name": "Systems Programming",
+        "credit": "3",
+        "semester": "4",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Fatma CORUT ERGİN",
+            "schedule": "Monday 16:00-17:00"
+          },
+          "2": {
+            "lecturer": "Fatma CORUT ERGİN",
+            "schedule": "Monday 17:00-18:00"
+          }
+        },
+        "prerequisite": []
+      },
+      "CSE2260": {
+        "name": "Principles of Programming Languages",
+        "credit": "3",
+        "semester": "4",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Ahmet Yilmaz",
+            "schedule": "Tuesday 14:00-15:00"
+          },
+          "2": {
+            "lecturer": "Ahmet Yilmaz",
+            "schedule": "Thursday 11:00-12:00"
+          }
+        },
+        "prerequisite": []
+      },
+      "EE2032": {
+        "name": "Electronics",
+        "credit": "2",
+        "semester": "4",
+        "type": "FC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Emre Arslan",
+            "schedule": "Wednesday 10:00-11:00"
+          },
+          "2": {
+            "lecturer": "Emre Arslan",
+            "schedule": "Wednesday 16:00-17:00"
+          }
+        },
+        "prerequisite": []
+      },
+      "STAT2253": {
+        "name": "Introduction to Probability and Statistics",
+        "credit": "2",
+        "semester": "4",
+        "type": "FC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Müjdat Soytürk",
+            "schedule": "Thursday 14:00-15:00"
+          },
+          "2": {
+            "lecturer": "Müjdat Soytürk",
+            "schedule": "Thursday 15:00-16:00"
+          }
+        },
+        "prerequisite": []
+      }
+    },
+    "Courses5": {
+      "CSE3215": {
+        "name": "Digital Logic Design",
+        "credit": "6",
+        "semester": "5",
+        "type": "CSE",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Betül Boz",
+            "schedule": "Tuesday 10:30-12:50, Wednesday 16:00-17:50, Thursday 9:30-10:20"
+          },
+          "2": {
+            "lecturer": "Betül Boz",
+            "schedule": "Tuesday 10:30-12:50, Thursday 14:00-15:50, Thursday 9:30-10:20"
+          }
+        },
+        "prerequisite": []
+      },
+
+      "CSE3033": {
+        "name": "Operating Systems",
+        "credit": "7",
+        "semester": "5",
+        "type": "CSE",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Ali Haydar Özer",
+            "schedule": "Monday 11:30-12:20, Tuesday 14:00-15:50"
+          },
+          "2": {
+            "lecturer": "Ali Haydar Özer",
+            "schedule": "Monday 11:30-12:20, Wednesday 14:00-15:50"
+          }
+        },
+        "prerequisite": [
+          "CSE2025"
+        ]
+      },
+
+      "CSE3055": {
+        "name": "Database Systems",
+        "credit": "7",
+        "semester": "5",
+        "type": "CSE",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Mustafa Ağaoğlu",
+            "schedule": "Wednesday 10:30-12:20, Friday 15:00-15:50, Tuesday 16:00-17:50"
+          },
+          "2": {
+            "lecturer": "Mustafa Ağaoğlu",
+            "schedule": "Wednesday 10:30-12:20, Friday 15:00-15:50 , Thursday 16:00-17:50"
+          }
+
+        },
+        "prerequisite": [
+          "CSE2025"
+        ]
+      },
+
+      "CSE3063": {
+        "name": "Object-Oriented Software Design",
+        "credit": "5",
+        "semester": "5",
+        "type": "CSE",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Murat Ganiz",
+            "schedule": "Thursday 12-13, Wednesday 23-00"
+          },
+          "2": {
+            "lecturer": "Murat Ganiz",
+            "schedule": "Thursday 11-12, Wednesday 21-22"
+          }
+        },
+        "prerequisite": [ "CSE1242" ]
+      },
+
+      "IE3081": {
+        "name": "Modeling and Discrete Simulation",
+        "credit": "4",
+        "semester": "5",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Müjdat Soytürk",
+            "schedule": "Thursday 10:30-12:320, Friday 9:30-10:20"
+          }
+
+        },
+        "prerequisite": [
+          "STAT2253"
+        ]
+      }
+    },
+    "Courses7": {
+      "CSE4074": {
+        "name": "Computer Networks",
+        "credit": "5",
+        "semester": "7",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Ahmet Yildiz",
+            "schedule": "Thursday 12:00-13:00, Thursday 13:00-14:00"
+          },
+          "2": {
+            "lecturer": "Ahmet Yildiz",
+            "schedule": "Friday 11:00-12:00, Friday 12:00-13:00"
+          }
+        },
+        "prerequisite": []
+      },
+      "CSE4219": {
+        "name": "Principles of Embedded System Design",
+        "credit": "6",
+        "semester": "7",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Hakan Katipoglu",
+            "schedule": "Tuesday 15:00-16:00, Tueasday 16:00-17:00"
+          },
+          "2": {
+            "lecturer": "Hakan Katipoglu",
+            "schedule": "Wednesday 10:00-11:00, Wednesday 11:00-12:00"
+          }
+        },
+        "prerequisite": [
+          "CSE3038"
+        ]
+      },
+      "CSE4297": {
+        "name": "Engineering Project I",
+        "credit": "5",
+        "semester": "7",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Ersin Destanoglu",
+            "schedule": "Friday 15:00-16:00, Friday 16:00-17:00"
+          },
+          "2": {
+            "lecturer": "Ersin Destanoglu",
+            "schedule": "Friday 11:00-12:00, Friday 12:00-13:00"
+          }
+        },
+        "prerequisite": []
+      },
+      "ISG121": {
+        "name": "İş Sağlığı ve Güvenliği I",
+        "credit": "2",
+        "semester": "7",
+        "type": "FC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Mustafa Yilmaz",
+            "schedule": "Monday 17:00-18:00, Monday 18:00-19:00"
+          },
+          "2": {
+            "lecturer": "Musfata Yilmaz",
+            "schedule": "Tuesday 17:00-18:00, Tuesday 18:00-19:00"
+          }
+        },
+        "prerequisite": []
+      },
+      "CSE4288": {
+        "name": "Introduction to Machine Learning",
+        "credit": "5",
+        "semester": "7",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Ercument Cozer",
+            "schedule": "Wednesday 15:00-16:00, Wednesday 16:00-17:00"
+          },
+          "2": {
+            "lecturer": "Ercument Cozer",
+            "schedule": "Thursday 15:00-16:00, Thursday 16:00-17:00"
+          }
+        },
+        "prerequisite": []
+      },
+      "UE": {
+        "name": "University Elective",
+        "credit": "3",
+        "semester": "7",
+        "type": "FC",
+        "quota": "15",
+        "sections": {
+          "1": {
+            "lecturer": "Mesut Coban",
+            "schedule": "Monday 13:00-14:00, Monday 14:00-15:00"
+          },
+          "2": {
+            "lecturer": "Mesut Coban",
+            "schedule": "Tuesday 10:00-11:00, Tuesday 11:00-12:00"
+          }
+        },
+        "prerequisite": [
+          "STAT2253"
+        ]
+      },
+      "TE-1": {
+        "name": "Technical Elective I",
+        "credit": "5",
+        "semester": "7",
+        "type": "TE",
+        "quota": "2",
+        "sections": {
+        },
+        "prerequisite": []
+      }
+    },
+    "Courses8": {
+      "CSE4298": {
+        "name": "Engineering Project II",
+        "credit": "5",
+        "semester": "8",
+        "type": "CSE",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Haluk Rahmi Topcuoglu",
+            "schedule": "Saturday 10:30 - 11:20"
+          }
+        },
+        "prerequisite": [
+          "CSE4297"
+        ]
+      },
+      "ISG122": {
+        "name": "Is Sagligi ve Guvenligi II",
+        "credit": "2",
+        "semester": "8",
+        "type": "FC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Mustafa Yilmaz",
+            "schedule": "Saturday 16:00 - 16:50, Saturday 17:00 - 17:50"
+          }
+        },
+        "prerequisite": []
+      },
+      "FTE": {
+        "name": "Faculty Technical Elective",
+        "credit": "5",
+        "semester": "8",
+        "type": "FTE",
+        "quota": "15",
+        "sections": {
+        },
+        "prerequisite": []
+      },
+      "NTE-2": {
+        "name": "Non Technical Elective II",
+        "credit": "3",
+        "semester": "8",
+        "type": "NTE",
+        "quota": "5",
+        "sections": {
+        },
+        "prerequisite": []
+      },
+
+      "TE-3": {
+        "name": "Technical Elective III",
+        "credit": "5",
+        "semester": "8",
+        "type": "TE",
+        "quota": "2",
+        "sections": {
+        },
+        "prerequisite": [
+        ]
+      },
+      "TE-2": {
+        "name": "Technical Elective II",
+        "credit": "5",
+        "semester": "8",
+        "type": "TE",
+        "quota": "2",
+        "sections": {
+        },
+        "prerequisite": [
+        ]
+      },
+      "TE-4": {
+        "name": "Technical Elective IV",
+        "credit": "5",
+        "semester": "8",
+        "type": "TE",
+        "quota": "2",
+        "sections": {
+        },
+        "prerequisite": [
+        ]
+      }
+    },
+    "Courses6": {
+      "CSE3038": {
+        "name": "Computer Organization",
+        "credit": "7",
+        "semester": "6",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Haluk Rahmi Topçuoğlu",
+            "schedule": "Wednesday 10:00-11:50"
+          },
+          "2": {
+            "lecturer": "Haluk Rahmi Topçuoğlu",
+            "schedule": "Friday 10:00-11:50"
+          }
+        },
+        "prerequisite": [
+          "CSE2138"
+        ]
+      },
+      "CSE3044": {
+        "name": "Software Engineering",
+        "credit": "7",
+        "semester": "6",
+        "type": "DC",
+        "quota": "40",
+        "sections": {
+          "1": {
+            "lecturer": "Borahan Tümer",
+            "schedule": "Thursday 9:00-10:50"
+          },
+          "2": {
+            "lecturer": "Borahan Tümer",
+            "schedule": "Tuesday 16:00-17:50"
+          }
+        },
+        "prerequisite": [
+          "CSE3055"
+
+        ]},
+      "CSE3048": {
+        "name": "Introduction to Signals and Systems",
+        "credit": "5",
+        "semester": "6",
+        "type": "DC",
+        "quota": "80",
+        "sections": {
+          "1": {
+            "lecturer": "Mehmet Baran",
+            "schedule": "Tuesday 9:00-10:50, Thursday 12:00-12:50"
+          }
+        },
+        "prerequisite": [
+          "MATH2055"
+        ]
+      },
+
+      "CSE3264": {
+        "name": "Formal Languages and Automata Theory",
+        "credit": "5",
+        "semester": "6",
+        "type": "DC",
+        "quota": "80",
+        "sections": {
+
+          "1": {
+            "lecturer": "Ali Haydar Özer",
+            "schedule": "Monday 11:00-11:50, Wednesday 12:00-12:50, Friday 09:00-09:50"
+          }
+        },
+        "prerequisite": [
+          "CSE2023"
+        ]
+
+      },
+      "IE3235": {
+        "name": "Operations Research",
+        "credit": "4",
+        "semester": "6",
+        "type": "DC",
+
+        "quota": "80",
+        "sections": {
+
+          "1": {
+            "lecturer": "Ali Fuat Alkaya",
+            "schedule": "Monday 09:00-10:50, Tuesday 10:00-10:50 "
+          }
+        },
+        "prerequisite": [
+          "MATH2256"
+        ]
+      },
+      "COM2202": {
+        "name": "Technical Comm. and Entrepreneurship",
+        "credit": "2",
+        "semester": "6",
+        "type": "FC",
+
+        "quota": "80",
+        "sections": {
+
+          "1": {
+            "lecturer": "Ali Fuat Alkaya",
+            "schedule": "Monday 16:00-17:50"
+          }
+        },
+        "prerequisite": [
+
+        ]
+      }
+    },
+    "NTE": {
+
+      "BUS1003":  {
+        "name": "Entrepreneurship and Innovation",
+        "lecturer": "HANDE SİNEM ERGUN",
+        "schedule": "Tuesday 08:30-09:20, Tuesday 09:30-10:20"
+      },
+
+      "HR1013":  {
+        "name": "Career Development",
+        "lecturer": "HANDE SİNEM ERGUN",
+        "schedule": "Tuesday 10:30-11:20, Tuesday 11:30-12:20"
+      },
+      "MRK3084":  {
+        "name": "Brand Creation/Branding",
+        "lecturer": "BEYTULLAH GÜLTEKİN ÇETİNER",
+        "schedule": "Thursday: 10:30-11:20, Thursday:11:30-12:50"
+      },
+
+      "MGT4082":  {
+        "name": "Advanced Innovative Design Management for Entrepreneurship",
+        "lecturer": "Haluk Bilginer",
+        "schedule": "Tuesday 10:30-11:20, Tuesday 11:30-12:20"
+      },
+
+      "IKT1054":  {
+        "name": "Industrial and Economic Sociology",
+        "lecturer": "SİNAN KAYA",
+        "schedule": "Tuesday 08:30-09:20, Tuesday 09:30-10:20"
+      },
+
+      "MGT4084":  {
+        "name": "Innovation and New Product Development Management",
+        "lecturer": "HÜLYA ASLANOĞLU",
+        "schedule": "Friday 14:00-14:50, Friday 15:00-15:50"
+      },
+
+      "MGT4088":  {
+        "name": "Project Management for Engineers",
+        "lecturer": "ÜNSAL ATASOY",
+        "schedule": "Wednesday 09:30 - 10:20, Wednesday 10:30 - 11:20, Wednesday 11:30 - 12:20"
+
+      },
+
+      "NTE1003":  {
+        "name": "The Culture of Radiation Safety",
+        "lecturer": "DENİZ ÖNER",
+        "schedule": "Tuesday 17:00 - 17:50, Tuesday 18:00 - 18:50"
+      },
+
+      "NTE1014":  {
+        "name": "Introduction to Strategic Human Resources Management",
+        "lecturer": "ÖZLEM YILMAZ",
+        "schedule": "Tuesday 10:30 - 11:20, Tuesday 11:30 - 12:20"
+      },
+
+      "NTE1015":  {
+        "name": "Introduction to Leadership & Management for Engineers",
+        "lecturer": "ÖZLEM YILMAZ",
+        "schedule": "Tuesday 13:00 - 13:50, Tuesday 14:00 - 14:50"
+      },
+
+      "NTE1016":  {
+        "name": "Introduction to Strategy for Engineers",
+        "lecturer": "ÖZLEM YILMAZ",
+        "schedule": "Thursday 10:30 - 11:20, Thursday 11:30 - 12:20"
+      },
+
+      "NTE1018":  {
+        "name": "Introduction to Business World for Engineers",
+        "lecturer": "ÖZLEM YILMAZ",
+        "schedule": "Thursday 13:00 - 13:50, Thursday 14:00 - 14:50"
+      },
+
+      "NTE1017":  {
+        "name": "Marketing in a Technology Driven world for Engineers",
+        "lecturer": "CANER DİLMENER",
+        "schedule": "Wednesday 13:00 - 13:50, Wednesday 14:00 - 14:50"
+      },
+
+      "OB343":  {
+        "name": "Organizational Behaviour",
+        "lecturer": "CAHİT KÖSE",
+        "schedule": "Saturday 09:30 - 10:20, Saturday 10:30 - 11:20"
+      },
+
+      "OB240":  {
+        "name": "Industrial Psychology",
+        "lecturer": " SİNAN ÇAYA",
+        "schedule": "Tuesday 10:30 - 11:20, Tuesday 11:30 - 12:20"
+      },
+
+      "OB241":  {
+        "name": "Entrepreneurship and Innovation",
+        "lecturer": "SİNAN ÇAYA",
+        "schedule": "Monday 08:30 - 09:20, Monday 09:30 - 10:20 "
+      },
+
+      "OB2040":  {
+        "name": "Industrial Psychology",
+        "lecturer": " SİNAN ÇAYA",
+        "schedule": "Tuesday 10:30 - 11:20, Tuesday 11:30 - 12:20"
+      },
+      "OB2041":  {
+        "name": "Entrepreneurship and Innovation",
+        "lecturer": "SİNAN ÇAYA",
+        "schedule": "Monday 08:30 - 09:20, Monday 09:30 - 10:20 "
+      },
+
+      "OB3043":  {
+        "name": "Organizational Behaviour",
+        "lecturer": "CAHİT KÖSE",
+        "schedule": "Saturday 09:30 - 10:20, Saturday 10:30 - 11:20"
+      },
+
+
+      "SOC3082":  {
+        "name": "Environmental Sociology",
+        "lecturer": "SİNAN ÇAYA",
+        "schedule": "Monday 10:30 - 11:20, Monday 11:30 - 12:20"
+      },
+
+      "YDA1001":  {
+        "name": "German for Beginners",
+        "lecturer": "GÜLİZAR SEMRA ÖZKURT",
+        "schedule": "Tuesday 13:00 - 13:50, Tuesday 14:00 - 14:50"
+      },
+
+      "YDA1002":  {
+        "name": "German",
+        "lecturer": "GÜLİZAR SEMRA ÖZKURT",
+        "schedule": "Tuesday 10:30-11:20, Tuesday 11:30-12:20"
+      },
+
+      "YDA1003":  {
+        "name": "German Communication",
+        "lecturer": "GÜLİZAR SEMRA ÖZKURT",
+        "schedule": "Thursday 13:00 - 13:50, Thursday 14:00 - 14:50"
+      },
+
+      "YDIS1001":  {
+        "name": "Spanish for Beginners",
+        "lecturer": "ROSA MARIA FLORES RANGEL",
+        "schedule": "Wednesday 17:00 - 17:50, Wednesday 18:00 - 18:50 "
+      }
+
+
+
+    },
+    "FTE": {
+
+      "CSE4026":  {
+        "name": "Introduction to Robotics and Control Theory",
+        "lecturer": "MEHMET KADİR BARAN",
+        "schedule": "Monday 17:00 - 17:50, Thursday 16:00 - 16:50, Thursday 17:00 - 17:50"
+      },
+
+      "CSE4034":  {
+        "name": "Advanced Unix Programming",
+        "lecturer": "SANEM ARSLAN YILMAZ",
+        "schedule": "Tuesday 09:00 - 09:50, Wednesday 13:00 - 13:50, Wednesday 14:00 - 14:50"
+      },
+
+      "CSE4061":  {
+        "name": "Compiler Design",
+        "lecturer": "BETÜL BOZ",
+        "schedule": "Monday 13:00 - 13:50, Tuesday 14:00 - 14:50, Tuesday 15:00 - 15:50"
+      },
+
+      "CSE4065":  {
+        "name": "Introduction to Computational Genomics",
+        "lecturer": "BETÜL BOZ",
+        "schedule": "Monday 14:00 - 14:50, Monday 15:00 - 15:50, Tuesday 13:00 - 13:50"
+      },
+
+      "CSE4075":  {
+        "name": "Wireless and Mobile Networks",
+        "lecturer": "MÜJDAT SOYTÜRK",
+        "schedule": "Tuesday 17:00 - 17:50, Friday 14:00 - 14:50, Friday 15:00 - 15:50 "
+      },
+
+      "CSE4060":  {
+        "name": "Cost Management in Chemical Industries",
+        "lecturer": "EMİN ARCA",
+        "schedule": "Monday 18:00 - 18:50, Tuesday 17:00 - 17:50, Tuesday 18:00 - 18:50"
+      },
+
+      "CSE417":  {
+        "name": "Introduction to Robotics and Control Theory",
+        "lecturer": "MEHMET KADİR BARAN",
+        "schedule": "Monday 13:00 - 13:50, Tuesday 14:00 - 14:50, Tuesday 15:00 - 15:50"
+      },
+
+      "CSE4086":  {
+        "name": "Mobile Device Programming",
+        "lecturer": "ALİ FUAT ALKAYA",
+        "schedule": "Wednesday 17:00 - 17:50, Friday 14:00 - 14:50, Friday 15:00 - 15:50"
+      },
+
+      "CSE4088":  {
+        "name": "Introduction to Machine Learning",
+        "lecturer": "ÇİĞDEM EROĞLU ERDEM",
+        "schedule": "Monday 13:00 - 13:50, Wednesday 16:00 - 16:50, Wednesday 17:00 - 17:50 "
+      },
+
+      "CSE4084":  {
+        "name": "Introduction to Robotics and Control Theory",
+        "lecturer": "ÇİĞDEM EROĞLU ERDEM",
+        "schedule": "Monday 13:00 - 13:50, Wednesday 16:00 - 16:50, Wednesday 17:00 - 17:50"
+      },
+
+      "CSE4082":  {
+        "name": "Artificial Intelligence",
+        "lecturer": "ALİ HAYDAR ÖZER",
+        "schedule": "Monday 13:00 - 13:50, Wednesday 16:00 - 16:50, Wednesday 17:00 - 17:50"
+      },
+      "CSE4093":  {
+        "name": "Special Topics in Computer Engineering I",
+        "lecturer": "MURAT CAN GANİZ",
+        "schedule": "Monday 13:00 - 13:50, Wednesday 16:00 - 16:50, Wednesday 17:00 - 17:50"
+      },
+
+      "CSE4094":  {
+        "name": "Special Topics in Computer Engineering II",
+        "lecturer": "ALİ HAYDAR ÖZER",
+        "schedule": "Monday 10:00 - 10:50, Thursday 16:00 - 16:50, Thursday 17:00 - 17:50"
+      },
+
+      "CSE4095":  {
+        "name": "Special Topics in Computer Engineering III",
+        "lecturer": "MURAT CAN GANİZ",
+        "schedule": "Wednesday 13:00 - 13:50, Wednesday 14:00 - 14:50, Friday 11:00 - 11:50"
+      },
+      "CSE4096":  {
+        "name": "Special Topics in Computer Engineering IV",
+        "lecturer": "ALİ HAYDAR ÖZER",
+        "schedule": "Tuesday 13:00 - 13:50, Wednesday 17:00 - 17:50, Thursday 17:00 - 17:50"
+      }
+
+
+
+
+
+
+
+    },
+    "TE": {
+      "BIOE4072":  {
+        "name": "Planning and Management of Research",
+        "lecturer": "AHU ALTINKUT UNCUOĞLU",
+        "schedule": "Monday 13:00 - 13:50, Monday 14:00 - 14:50, Monday 15:00 - 15:50"
+      },
+
+      "CSE4062":  {
+        "name": "Introduction to Data Science and Analytics",
+        "lecturer": "MURAT CAN GANİZ",
+        "schedule": "Tuesday 11:00 - 11:50, Wednesday 10:00 - 10:50, Wednesday 11:00 - 11:50"
+      },
+
+      "EE4062":  {
+        "name": "Introduction to Image Processing",
+        "lecturer": "GÖKHAN BORA ESMER",
+        "schedule": "Monday 13:00 - 13:50, Monday 14:00 - 14:50, Friday 16:00 - 16:50"
+      },
+
+      "IE4055":  {
+        "name": "Design of Experiments",
+        "lecturer": " SIDDIK SİNAN KESKİN",
+        "schedule": "Monday 13:00 - 13:50, Tuesday 14:00 - 14:50, Tuesday 15:00 - 15:50"
+      },
+
+      "ME4018":  {
+        "name": "Introduction to Robotics",
+        "lecturer": "UĞUR TÜMERDEM",
+        "schedule": "Tuesday 15:00 - 15:50, Tuesday 16:00 - 16:50, Thursday 15:00 - 15:50"
+      },
+      "ME4022":  {
+        "name": "Control Systems",
+        "lecturer": "İBRAHİM SİNA KUSEYRİ",
+        "schedule": "Wednesday 13:00 - 13:50,  Wednesday 14:00 - 14:50, Friday 18:00 - 18:50"
+      },
+      "MGT4082":  {
+        "name": "Innovation and New Product Development Management",
+        "lecturer": "HÜLYA ASLANOĞLU",
+        "schedule": "Friday 14:00 - 14:50, Friday 15:00 - 15:50, Friday 16:00 - 16:50"
+      },
+
+      "MGT4084":  {
+        "name": "Project Management for Engineers ",
+        "lecturer": " EMRAH GENÇALP",
+        "schedule": "Monday 13:00 - 13:50, Thursday 16:00 - 16:50, Friday 17:00 - 17:50"
+      },
+      "MGT4088":  {
+        "name": "Materials Engineering Economics and Plant Design",
+        "lecturer": "GÖRKEM YUMUŞAK",
+        "schedule": "Tuesday 13:00 - 13:50, Tuesday 14:00 - 14:50, Thursday 14:00 - 14:50"
+      },
+      "CHE4060":  {
+        "name": "Cost Management in Chemical Industries",
+        "lecturer": "EMİN ARCA",
+        "schedule": "Tuesday 11:00 - 11:50, Wednesday 10:00 - 10:50, Wednesday 14:00 - 14:50"
+      }
+    }
+  }
+]
