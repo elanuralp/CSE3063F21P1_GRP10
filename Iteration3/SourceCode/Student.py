@@ -1,9 +1,13 @@
 import random
+import os
+import time
 
 from CourseSectionRegister import CourseSectionRegister
 from Advisor import Advisor
 from Lecturer import Lecturer
 from Transcript import Transcript
+import json
+# encoding:utf-8
 
 
 class Student(object):
@@ -83,16 +87,58 @@ class Student(object):
 
 
     def writeToTheJSON(self, courseMap):
-        return
+        name = str(self.getId().getID())+'.json'
+
+        if(bool(courseMap)==False):
+            courseMap={"": ""}
+
+
+        if (os.path.isfile(name))==False:
+            ss={}
+            with open(name, "w", encoding='utf-8') as file:
+                ss["Semester "+str(self.getAcademicSemester()+1)+":"]=courseMap
+                file.seek(0)
+
+                json.dump(ss, file,indent=4)
+
+                return
+        if (os.path.isfile(name)) == True:
+            with open(name, "r+",encoding='utf-8') as file:
+                data = json.load(file)
+                data["Semester " + str(self.getAcademicSemester()+1)+":"]=courseMap
+                file.seek(0)
+                json.dump(data, file,indent=4)
+
+
+
+
+
+
 
     def writeLogs(self, logs):
+        name = str(self.getId().getID()) + '.json'
+
+        with open(name, "r+", encoding='utf-8') as file:
+            data = json.load(file)
+            data["Semester " + str(self.getAcademicSemester() + 1) + " logs:"] = logs
+            file.seek(0)
+            json.dump(data, file, indent=4)
+
         return
 
     def writeGPA(self, logs):
+        name = str(self.getId().getID())+'.json'
+
+
+        with open(name, "r+", encoding='utf-8') as file:
+            data = json.load(file)
+            data["Semester " + str(self.getAcademicSemester()+1)+" GPA and cGPA:"] = logs
+            file.seek(0)
+            json.dump(data, file, indent=4)
+
         return
 
-    def endOfFile(self):
-        return
+
 
     def finishSemester(self):
         registerList = self.schedule.getCourseSectionRegisterList()
@@ -117,9 +163,11 @@ class Student(object):
 
             courses.append(courseOfSection)
 
+
         courseMap = {}
         gpaJSON = "GPA: " + self.__transcript.addCoursesToTranscript(courses, courseMap) + ",cGPA: " + self.getTranscript().calculateTotalGPA();
 
+        #courseDict['GPA and cGPA']= gpaJSON
         self.writeToTheJSON(courseMap);
         self.writeGPA(gpaJSON);
         courseMap.clear();

@@ -1,21 +1,21 @@
 class CourseSectionRegister(object):
     def __init__(self, courseSection, status, student):
 
-        self.courseSection=courseSection
-        self.status=status
-        self.student=student
-        StudentSchedule =self.student.getSchedule()
+        self.__courseSection=courseSection
+        self.__status=status
+        self.__student=student
+        StudentSchedule =self.__student.getSchedule()
         StudentSchedule.addToSchedule(self)
 
 
     def getCourseSection(self):
-        return self.courseSection
+        return self.__courseSection
 
     def setCourseSection(self, courseSection):
-        self.courseSection = courseSection
+        self.__courseSection = courseSection
 
     def getStatus(self):
-        return self.status
+        return self.__status
 
     def setStatus(self, status):
-        self.status = status
+        self.__status = status

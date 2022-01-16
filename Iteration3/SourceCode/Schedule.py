@@ -2,7 +2,7 @@ class Schedule(object):
 
     def __init__(self, courseSectionRegisterList, isApproved):
         self.__courseSectionRegisterList = courseSectionRegisterList
-        self.isApproved = isApproved
+        self.__isApproved = isApproved
 
     def addToSchedule(self, courseSectionRegister):
         courseSectionRegisterListToAdd =self.getCourseSectionRegisterList()

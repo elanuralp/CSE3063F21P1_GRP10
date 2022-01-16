@@ -2,9 +2,9 @@ class Lecturer:
 
     def __init__(self, id, name, surname):
 
-        self.id = id
-        self.name = name
-        self.surname = surname
+        self.__id = id
+        self.__name = name
+        self.__surname = surname
 
     def getId(self):
         return self.id

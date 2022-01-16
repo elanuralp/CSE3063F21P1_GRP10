@@ -6,9 +6,9 @@ from CourseGrade import CourseGrade
 class Transcript(object):
 
     def __init__(self, gradeBook, completedCredit, gpa):
-        gradeBook = []
-        completedCredit = 0
-        gpa = 0
+        __gradeBook = []
+        __completedCredit = 0
+        __gpa = 0
 
         self.setGradeBook(gradeBook)
         self.setCompletedCredit(completedCredit)
@@ -58,7 +58,8 @@ class Transcript(object):
             cGrade = CourseGrade(courseOfFor, grades[randomNumber])
             self.__gradeBook.append(cGrade)
             semesterGrades.append(cGrade)
-            courseMap.update({courseOfFor.getName(): grades[randomNumber]})
+
+            courseMap[courseOfFor.getName()] = grades[randomNumber]
         #dt = java.text.DecimalFormat("0.00")
         return format(self.calculateSemesterGPA(semesterGrades))
     def calculateTotalGPA(self):

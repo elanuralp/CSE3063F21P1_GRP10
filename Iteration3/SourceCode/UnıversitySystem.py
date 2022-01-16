@@ -1,6 +1,7 @@
 import random
 import json
-
+import os
+import logging
 from Course import Course
 from CourseSection import CourseSection
 from Identity import Identity
@@ -59,12 +60,7 @@ class UniversitySystem(object):
             empty = []
             student = Student(Identity(len(self.__allStudentList)), self.__academicCurrentYear,self.__advisorList[index], Transcript(empty,0,0), Schedule([],False))
             self.__allStudentList.append(student)
-            # try:
-            #     myWriter = java.io.FileWriter(student.getId().getID()+".json")
-            #     myWriter.close()
-            # except java.io.IOException as e:
-            #     print("An error occurred.")
-            #     e.printStackTrace()
+            logging.fatal("Status: Okay, Student is created")
             i += 1
 
     def completeSemester(self):
@@ -94,6 +90,10 @@ class UniversitySystem(object):
             i += 1
     def initializeUniversityCourseSelectionSystem(self):
         self.initializeFromJson("input.json")
+        for i in range(150110000, 150110280):
+            name = str(i) + '.json'
+            if (os.path.isfile(name)):
+                os.remove(name)
         self.startSimulation()
 
 

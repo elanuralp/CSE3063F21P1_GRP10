@@ -9,7 +9,6 @@ class Advisor(Lecturer):
         self.__studentList = []
 
 
-#var bi bokluk burda
     def __init__(self, id, name, surname):
         self._initialize_instance_fields()
 
@@ -50,7 +49,6 @@ class Advisor(Lecturer):
                 i += 1
         collidingRegisters = studentSchedule.checkCourseSectionCollision()
         if len(collidingRegisters) >= 1:
-            print("********************")
             for register in collidingRegisters:
 
                 register.setStatus("COLLIDE")
@@ -99,5 +97,5 @@ class Advisor(Lecturer):
 
         studentSchedule.approveSchedule()
 
-        #if (not not) logs:
-            #student.writeLogs(logs)
+        # if bool(logs):
+        #     student.writeLogs(logs)

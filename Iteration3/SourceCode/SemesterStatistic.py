@@ -1,12 +1,12 @@
-
+import json
 class SemesterStatistic(object):
 
 
 
     def __init__(self):
         self.__deniedCourseSectionRegisterList = []
-        self.courseMap = {}
-        self.courseTypeMap = {}
+        self.__courseMap = {}
+        self.__courseTypeMap = {}
 
 
     def addtoDeniedCourseSectionRegisterList(self, deniedCourseSectionRegister):
@@ -18,45 +18,45 @@ class SemesterStatistic(object):
         self.__deniedCourseSectionRegisterList = deniedCourseSectionRegisterList
 
     def calculateSemesterStatistics(self):
-        i = None
-        i = 0
-        while i<len(self.__deniedCourseSectionRegisterList):
+        i =0
+        while i< len(self.__deniedCourseSectionRegisterList):
 
-            courseNameAndStatus = self.__deniedCourseSectionRegisterList[i].courseSection.getCourse()[0].getName()+ " DUE TO " + self.__deniedCourseSectionRegisterList[i].status
-            courseType =self.__deniedCourseSectionRegisterList[i].courseSection.getCourse()[0].getType()
-            # if courseNameAndStatus in self.courseMap.keys():
-            #
-            #     self.courseMap.replace(courseNameAndStatus, self.courseMap[courseNameAndStatus] + 1)
-            #
-            #
-            # else:
-            #     self.courseMap.update({courseNameAndStatus: 1})
-            #
-            # if courseType in self.courseTypeMap.keys():
-            #
-            #     self.courseTypeMap.replace(courseType, self.courseTypeMap[courseType] + 1)
-            #
-            #
-            # else:
-            #     self.courseTypeMap.update({courseType: 1})
 
-            i += 1
+            courseNameAndStatus = self.__deniedCourseSectionRegisterList[i].getCourseSection().getCourse()[0].getName()+ " DUE TO " + self.__deniedCourseSectionRegisterList[i].getStatus()
+            courseType =self.__deniedCourseSectionRegisterList[i].getCourseSection().getCourse()[0].getType()
+
+            i=i+1
+
+            if courseNameAndStatus in self.__courseMap.keys():
+
+                self.__courseMap[courseNameAndStatus]=self.__courseMap[courseNameAndStatus] + 1
+
+
+            else:
+                self.__courseMap[courseNameAndStatus]=1
+
+            if courseType in self.__courseTypeMap.keys():
+
+                self.__courseTypeMap[courseType]=self.__courseTypeMap[courseType] + 1
+
+
+            else:
+                self.__courseTypeMap[courseType] = 1
+
 
     def writeToJson(self):
-        print("writeToJSON fonksiyonuyum ben ")
-        # jsonObject = org.json.simple.JSONObject()
-        # logs = org.json.simple.JSONArray()
-        # for entry in self.courseMap.entrySet():
-        #     logs.add(entry.getValue() + " STUDENTS COULDN'T REGISTER FOR "+ entry.getKey() + " PROBLEMS.")
-        #
-        # for entry2 in self.courseTypeMap.entrySet():
-        #     logs.add(entry2.getValue() + " STUDENTS COULDN'T REGISTER FOR A "+ entry2.getKey() + " THIS SEMESTER.")
-        #
-        #
-        # jsonObject.put("Logs", logs)
-        # try:
-        #     file = java.io.FileWriter("DEPARTMENT_OUTPUT_SEMESTER.json")
-        #     file.write(jsonObject.toJSONString())
-        #     file.close()
-        # except java.io.IOException as e:
-        #     e.printStackTrace()
+        name="DEPARTMENT_OUTPUT_SEMESTER.json"
+        logs=[]
+
+        for i,j in self.__courseMap.items():
+            logs.append(str(j) + " STUDENTS COULDN'T REGISTER FOR "+ i + " PROBLEMS.")
+
+        for i,j in self.__courseTypeMap.items():
+            logs.append(str(j)+ " STUDENTS COULDN'T REGISTER FOR A "+ i + " THIS SEMESTER.")
+
+        with open(name, "w", encoding='utf-8') as file:
+            jsonString = json.dumps(logs,indent=4)
+            file.write(jsonString)
+
+        return
+
